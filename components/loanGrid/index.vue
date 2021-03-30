@@ -1,6 +1,6 @@
 <template>
   <div class="components---loan">
-    <a href="#">
+    <a href="/product-detail">
       <figure class="image">
         <img
           class="loan___image img-fluid"
@@ -72,7 +72,7 @@
     </a>
     <div class="loan___button">
       <a
-        href="#"
+        href="/product-detail"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold loan___button-item"
       >
         Ajukan pinjaman

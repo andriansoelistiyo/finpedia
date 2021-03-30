@@ -1,6 +1,6 @@
 <template>
   <div class="components---cc">
-    <a href="#">
+    <a href="/product-detail">
       <figure class="image">
         <img class="cc___image" :src="cc.image" :alt="cc.title" />
       </figure>
@@ -47,7 +47,7 @@
     </a>
     <div class="cc___button">
       <a
-        href="#"
+        href="/product-detail"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold cc___button-item"
       >
         Apply kartu kredit

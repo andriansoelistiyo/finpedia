@@ -1,0 +1,145 @@
+/* section */
+.components---section {
+  margin-bottom: 16px;
+}
+.components---section > div > .section___title {
+  font-family: finpediaPoppins700;
+  color: var(--finpediaBlack01);
+  margin-bottom: 0;
+}
+.components---section > div > .section___title-footer {
+  font-family: finpediaPoppins700;
+  color: #fff;
+}
+.components---section > div > .section___subtitle {
+  font-family: finpediaRoboto400;
+  color: var(--finpediaBlack02);
+}
+
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  /* code */
+
+  /* section */
+  #finpedia-app > .section {
+    padding: 16px;
+  }
+  #finpedia-product-detail > .section {
+    padding: 8px 16px;
+  }
+  /* section hide button */
+  .components---section > .is-pulled-right {
+    display: none;
+  }
+
+  /* font section */
+  .components---section > div > .section___title {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---section > div > .section___title-footer {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---section > div > .section___subtitle {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+  }
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* code */
+
+  /* section hide button */
+  .components---section > .is-pulled-right {
+    display: none;
+  }
+
+  /* font section */
+  .components---section > div > .section___title {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---section > div > .section___title-footer {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---section > div > .section___subtitle {
+    font-size: var(--body03);
+    line-height: var(--lhBody03);
+  }
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* code */
+
+  /* font section */
+  .components---section > div > .section___title {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___title-footer {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___subtitle {
+    font-size: var(--body01);
+    line-height: var(--lhBody01);
+  }
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* code */
+
+  /* section */
+  #finpedia-app > .section {
+    padding: 32px 16px;
+  }
+  #finpedia-product-detail > .section {
+    padding: 16px;
+  }
+
+  /* font section */
+  .components---section > div > .section___title {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___title-footer {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___subtitle {
+    font-size: var(--body01);
+    line-height: var(--lhBody01);
+  }
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  /* code */
+
+  /* section */
+  #finpedia-app > .section {
+    padding: 32px 16px;
+  }
+  #finpedia-product-detail > .section {
+    padding: 16px;
+  }
+
+  /* font section */
+  .components---section > div > .section___title {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___title-footer {
+    font-size: var(--heading03);
+    line-height: var(--lhHeading03);
+  }
+  .components---section > div > .section___subtitle {
+    font-size: var(--body01);
+    line-height: var(--lhBody01);
+  }
+}

@@ -225,8 +225,8 @@ export default {
       loans: [
         {
           id: 1,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -237,8 +237,8 @@ export default {
         },
         {
           id: 2,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -249,8 +249,8 @@ export default {
         },
         {
           id: 3,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -261,8 +261,8 @@ export default {
         },
         {
           id: 4,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",

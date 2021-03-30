@@ -1,15 +1,15 @@
 <template>
-  <a href="#">{{ breadcrumb.title }}</a>
+  <a :href="breadcrumb.link">{{ breadcrumb.title }}</a>
 </template>
 
 <script>
 export default {
-  name: 'breadcrumbList',
+  name: "breadcrumbList",
   props: {
     breadcrumb: {
       type: Object,
       required: true,
     },
   },
-}
+};
 </script>

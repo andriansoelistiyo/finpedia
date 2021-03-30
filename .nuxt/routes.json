@@ -1,0 +1,20 @@
+[
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Volumes/hdd/project/finpedia/pages/home/index.vue",
+    "chunkName": "pages/home/index"
+  },
+  {
+    "name": "product-detail",
+    "path": "/product-detail",
+    "component": "/Volumes/hdd/project/finpedia/pages/product-detail/index.vue",
+    "chunkName": "pages/product-detail/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Volumes/hdd/project/finpedia/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

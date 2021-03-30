@@ -1,0 +1,68 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "BreadcrumbList": {
+    "description": "Auto imported from components/breadcrumbList/index.vue"
+  },
+  "BreadcrumbListLayout": {
+    "description": "Auto imported from components/breadcrumbListLayout/index.vue"
+  },
+  "CategoryGrid": {
+    "description": "Auto imported from components/categoryGrid/index.vue"
+  },
+  "CategoryGridLayout": {
+    "description": "Auto imported from components/categoryGridLayout/index.vue"
+  },
+  "CcGrid": {
+    "description": "Auto imported from components/ccGrid/ccGrid.vue"
+  },
+  "CcGridLayout": {
+    "description": "Auto imported from components/ccGridLayout/index.vue"
+  },
+  "FinpediaFooter": {
+    "description": "Auto imported from components/finpediaFooter/index.vue"
+  },
+  "FinpediaHeader": {
+    "description": "Auto imported from components/finpediaHeader/index.vue"
+  },
+  "LoanGrid": {
+    "description": "Auto imported from components/loanGrid/index.vue"
+  },
+  "LoanGridLayout": {
+    "description": "Auto imported from components/loanGridLayout/index.vue"
+  },
+  "LoanSimulation": {
+    "description": "Auto imported from components/loanSimulation/index.vue"
+  },
+  "PartnerGrid": {
+    "description": "Auto imported from components/partnerGrid/index.vue"
+  },
+  "PartnerGridLayout": {
+    "description": "Auto imported from components/partnerGridLayout/index.vue"
+  },
+  "ProductCalcBunga": {
+    "description": "Auto imported from components/productCalcBunga/index.vue"
+  },
+  "ProductFeature": {
+    "description": "Auto imported from components/productFeature/index.vue"
+  },
+  "ProductFeatureLayout": {
+    "description": "Auto imported from components/productFeatureLayout/index.vue"
+  },
+  "ProductImage": {
+    "description": "Auto imported from components/productImage/index.vue"
+  },
+  "SlickCarousel": {
+    "description": "Auto imported from components/slickCarousel/index.vue"
+  },
+  "TabsRound": {
+    "description": "Auto imported from components/tabsRound/index.vue"
+  },
+  "TabsRoundLayout": {
+    "description": "Auto imported from components/tabsRoundLayout/index.vue"
+  },
+  "ValueProposition": {
+    "description": "Auto imported from components/valueProposition/index.vue"
+  }
+}

@@ -18,6 +18,7 @@ export default {
     '@/assets/css/foundations/color.css',
     '@/assets/css/foundations/helper.css',
     '@/assets/css/foundations/section.css',
+    '@/assets/css/foundations/slickCarousel.css',
     '@/assets/css/foundations/spacingMargin.css',
     '@/assets/css/foundations/spacingPadding.css',
     '@/assets/css/foundations/typography.css',

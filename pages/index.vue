@@ -1,5 +1,5 @@
 <template>
-  <div id="finpedia-app">
+  <div id="finpedia">
     <slickCarousel />
     <!-- category section -->
     <section class="section">

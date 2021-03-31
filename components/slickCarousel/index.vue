@@ -2,19 +2,22 @@
   <div class="components---slick_carousel">
     <VueSlickCarousel v-bind="settings">
       <div>
-        <img class="slick_carousel___image"
+        <img
+          class="slick_carousel___image"
           src="~/assets/img/bannerCarousel/banner1.jpeg"
           alt="bannerCarousel"
         />
       </div>
       <div>
-        <img class="slick_carousel___image"
+        <img
+          class="slick_carousel___image"
           src="~/assets/img/bannerCarousel/banner2.jpeg"
           alt="bannerCarousel"
         />
       </div>
       <div>
-        <img class="slick_carousel___image"
+        <img
+          class="slick_carousel___image"
           src="~/assets/img/bannerCarousel/banner3.jpeg"
           alt="bannerCarousel"
         />
@@ -51,7 +54,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-
-</style>

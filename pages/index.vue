@@ -1,6 +1,7 @@
 <template>
   <div id="finpedia">
     <slickCarousel />
+    
     <!-- category section -->
     <section class="section">
       <div class="container">
@@ -41,7 +42,7 @@
     </section>
     <!-- ./category section -->
 
-    <!-- pinjaman section -->
+    <!-- loan section -->
     <section class="section">
       <div class="container">
         <!-- components section -->
@@ -78,9 +79,9 @@
         <!-- ./button show more only on mobile -->
       </div>
     </section>
-    <!-- ./pinjaman section -->
+    <!-- ./loan section -->
 
-    <!-- kartu kredit section -->
+    <!-- cc section -->
     <section class="section">
       <div class="container">
         <!-- components section -->
@@ -117,7 +118,7 @@
         <!-- ./button show more only on mobile -->
       </div>
     </section>
-    <!-- ./kartu kredit section -->
+    <!-- ./cc section -->
 
     <!-- partner section -->
     <section class="section">

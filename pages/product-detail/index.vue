@@ -63,31 +63,10 @@
           <div class="is-pulled-left">
             <h2 class="section___title">Rekomendasi pinjaman lainnya</h2>
           </div>
-          <!-- button show more only on desktop -->
-          <div class="is-pulled-right">
-            <a
-              href="#"
-              class="button is-small is-rounded is-info is-light has-text-weight-bold fs-button"
-            >
-              Lihat semua
-            </a>
-          </div>
-          <!-- ./button show more only on desktop -->
         </div>
         <!-- ./components section -->
 
         <loanGridLayout :items="loans"></loanGridLayout>
-
-        <!-- button show more only on mobile -->
-        <div class="has-text-centered is-hidden-tablet mt-16">
-          <a
-            href="#"
-            class="button is-normal is-rounded is-info is-light has-text-weight-bold"
-          >
-            Lihat semua
-          </a>
-        </div>
-        <!-- ./button show more only on mobile -->
       </div>
     </section>
     <!-- ./recommendation section -->

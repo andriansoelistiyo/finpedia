@@ -17,4 +17,13 @@ $ npm run start
 $ npm run generate
 ```
 
+## If NPM doesn't work or error
+
+```bash
+1. delete folder node_modules
+2. delete file package-lock.json
+3. run " $ npm install " on your terminal
+4. finish
+```
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

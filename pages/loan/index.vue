@@ -81,24 +81,6 @@ export default {
           title: "Kredit multiguna",
         },
       ],
-      features: [
-        {
-          id: 1,
-          value: "One line feature text on product detail",
-        },
-        {
-          id: 2,
-          value: "One line feature text on product detail",
-        },
-        {
-          id: 3,
-          value: "One line feature text on product detail",
-        },
-        {
-          id: 4,
-          value: "One line feature text on product detail",
-        },
-      ],
       loans: [
         {
           id: 1,

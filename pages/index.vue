@@ -1,7 +1,11 @@
 <template>
   <div id="finpedia">
-    <slickCarousel />
-    
+    <section class="section">
+      <div class="container">
+        <slickCarousel />
+      </div>
+    </section>
+
     <!-- category section -->
     <section class="section">
       <div class="container">

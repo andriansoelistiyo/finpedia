@@ -6,27 +6,27 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '../assets/css/foundations/color.css'
+import '..\\assets\\css\\foundations\\color.css'
 
-import '../assets/css/foundations/helper.css'
+import '..\\assets\\css\\foundations\\helper.css'
 
-import '../assets/css/foundations/section.css'
+import '..\\assets\\css\\foundations\\section.css'
 
-import '../assets/css/foundations/slickCarousel.css'
+import '..\\assets\\css\\foundations\\slickCarousel.css'
 
-import '../assets/css/foundations/spacingMargin.css'
+import '..\\assets\\css\\foundations\\spacingMargin.css'
 
-import '../assets/css/foundations/spacingPadding.css'
+import '..\\assets\\css\\foundations\\spacingPadding.css'
 
-import '../assets/css/foundations/typography.css'
+import '..\\assets\\css\\foundations\\typography.css'
 
-import '../assets/plugins/bulma-0.9.1/css/bulma.min.css'
+import '..\\assets\\plugins\\bulma-0.9.1\\css\\bulma.min.css'
 
-import '../assets/plugins/fontawesome-free-5.15.2-web/css/all.min.css'
+import '..\\assets\\plugins\\fontawesome-free-5.15.2-web\\css\\all.min.css'
 
-import '../node_modules/prismjs/themes/prism.css'
+import '..\\node_modules\\prismjs\\themes\\prism.css'
 
-import _6f6c098b from '../layouts/default.vue'
+import _6f6c098b from '..\\layouts\\default.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b) }
 

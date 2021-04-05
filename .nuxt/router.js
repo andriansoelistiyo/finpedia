@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1381a8e8 = () => interopDefault(import('../pages/home/index.vue' /* webpackChunkName: "pages/home/index" */))
-const _4dca81c8 = () => interopDefault(import('../pages/product-detail/index.vue' /* webpackChunkName: "pages/product-detail/index" */))
-const _5ff7dcd8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _5d9b678e = () => interopDefault(import('..\\pages\\loan\\index.vue' /* webpackChunkName: "pages/loan/index" */))
+const _52e779a2 = () => interopDefault(import('..\\pages\\product-detail\\index.vue' /* webpackChunkName: "pages/product-detail/index" */))
+const _227c0604 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -20,16 +20,16 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/home",
-    component: _1381a8e8,
-    name: "home"
+    path: "/loan",
+    component: _5d9b678e,
+    name: "loan"
   }, {
     path: "/product-detail",
-    component: _4dca81c8,
+    component: _52e779a2,
     name: "product-detail"
   }, {
     path: "/",
-    component: _5ff7dcd8,
+    component: _227c0604,
     name: "index"
   }],
 

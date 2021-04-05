@@ -1,6 +1,6 @@
 <template>
   <div id="finpedia-product-detail" class="py-16">
-    <!-- breadcrumb & product title section -->
+    <!-- breadcrumb section -->
     <section class="section">
       <div class="container">
         <breadcrumbListLayout
@@ -31,7 +31,7 @@
         <div class="columns is-mobile is-multiline">
           <!-- product image -->
           <div class="column is-12-mobile is-3-tablet is-3-desktop">
-            <productImage :image="images"></productImage>
+            <productImage :image="productImage"></productImage>
           </div>
           <!-- ./product image -->
 
@@ -107,7 +107,7 @@ export default {
         {
           id: 2,
           title: "Pinjaman",
-          link: "#",
+          link: "loan",
         },
         {
           id: 3,
@@ -120,7 +120,9 @@ export default {
           link: "#",
         },
       ],
-      images: {
+      productImage: {
+        id: 1,
+        title: "Standard Chartered",
         image: require("~/assets/img/partner/standardChartered.png"),
       },
       tabsNavs: [

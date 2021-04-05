@@ -1,10 +1,10 @@
 <template>
   <div class="components---product_image">
-    <figure class="image">
+    <figure :key="image.id" class="image">
       <img
         class="product_image___image"
         :src="image.image"
-        :alt="image.image"
+        :alt="image.title"
       />
     </figure>
   </div>

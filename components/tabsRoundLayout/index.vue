@@ -3,7 +3,7 @@
     <div class="tabs is-toggle is-toggle-rounded fs-body02">
       <ul>
         <li v-for="item in items" :key="item.id">
-          <tabsRound :tabs="item"></tabsRound>
+          <a href="#" class="tabs_round___item"> {{ item.title }} </a>
         </li>
       </ul>
     </div>
@@ -12,14 +12,14 @@
 
 <script>
 export default {
-  name: 'tabsRoundLayout',
+  name: "tabsRoundLayout",
   props: {
     items: {
       type: Array,
       required: true,
     },
   },
-}
+};
 </script>
 
 <style scoped>

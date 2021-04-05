@@ -14,7 +14,7 @@
   >
     <ul>
       <li v-for="item in items" :key="item.id">
-        <breadcrumbList :breadcrumb="item"></breadcrumbList>
+        <a :href="item.link">{{ item.title }}</a>
       </li>
     </ul>
   </nav>

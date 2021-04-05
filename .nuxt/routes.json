@@ -1,20 +1,23 @@
 [
   {
-    "name": "home",
-    "path": "/home",
-    "component": "/Volumes/hdd/project/finpedia/pages/home/index.vue",
-    "chunkName": "pages/home/index"
+    "name": "loan",
+    "path": "/loan",
+    "component": "E:\\\\project-andrian\\\\finpedia\\\\pages\\\\loan\\\\index.vue",
+    "chunkName": "pages/loan/index",
+    "_name": "_5d9b678e"
   },
   {
     "name": "product-detail",
     "path": "/product-detail",
-    "component": "/Volumes/hdd/project/finpedia/pages/product-detail/index.vue",
-    "chunkName": "pages/product-detail/index"
+    "component": "E:\\\\project-andrian\\\\finpedia\\\\pages\\\\product-detail\\\\index.vue",
+    "chunkName": "pages/product-detail/index",
+    "_name": "_52e779a2"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Volumes/hdd/project/finpedia/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "E:\\\\project-andrian\\\\finpedia\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_227c0604"
   }
 ]

@@ -1,10 +1,12 @@
 <template>
   <div id="finpedia">
+    <!-- slick carousel section -->
     <section class="section">
       <div class="container">
         <slickCarousel />
       </div>
     </section>
+    <!-- ./slick carousel section -->
 
     <!-- category section -->
     <section class="section">
@@ -178,31 +180,37 @@ export default {
           id: "1",
           image: require("~/assets/img/category/pinjamanOnline.png"),
           title: "Pinjaman Online",
+          link: "loan",
         },
         {
           id: "2",
           image: require("~/assets/img/category/shopping.png"),
           title: "Shopping",
+          link: "cc",
         },
         {
           id: "3",
           image: require("~/assets/img/category/kreditTanpaAgunan.png"),
           title: "Kredit Tanpa Agunan",
+          link: "loan",
         },
         {
           id: "4",
           image: require("~/assets/img/category/kreditKendaraanBermotor.png"),
           title: "Kredit Kendaraan Bermotor",
+          link: "loan",
         },
         {
           id: "5",
           image: require("~/assets/img/category/kreditPemilikanRumah.png"),
           title: "Kredit Pemilikan Rumah",
+          link: "loan",
         },
         {
           id: "6",
           image: require("~/assets/img/category/syariah.png"),
           title: "Syariah",
+          link: "cc",
         },
       ],
       tabsLoans: [

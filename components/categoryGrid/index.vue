@@ -1,5 +1,5 @@
 <template>
-  <a href="#">
+  <a :href="category.link">
     <div class="components---category">
       <figure class="image">
         <img

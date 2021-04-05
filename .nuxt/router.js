@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5d9b678e = () => interopDefault(import('..\\pages\\loan\\index.vue' /* webpackChunkName: "pages/loan/index" */))
-const _52e779a2 = () => interopDefault(import('..\\pages\\product-detail\\index.vue' /* webpackChunkName: "pages/product-detail/index" */))
-const _227c0604 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _5d6cda5d = () => interopDefault(import('../pages/loan/index.vue' /* webpackChunkName: "pages/loan/index" */))
+const _4dca81c8 = () => interopDefault(import('../pages/product-detail/index.vue' /* webpackChunkName: "pages/product-detail/index" */))
+const _5ff7dcd8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -21,15 +21,15 @@ export const routerOptions = {
 
   routes: [{
     path: "/loan",
-    component: _5d9b678e,
+    component: _5d6cda5d,
     name: "loan"
   }, {
     path: "/product-detail",
-    component: _52e779a2,
+    component: _4dca81c8,
     name: "product-detail"
   }, {
     path: "/",
-    component: _227c0604,
+    component: _5ff7dcd8,
     name: "index"
   }],
 
@@ -37,7 +37,7 @@ export const routerOptions = {
 }
 
 export function createRouter (ssrContext, config) {
-  const base = (config.app && config.app.basePath) || routerOptions.base
+  const base = (config._app && config._app.basePath) || routerOptions.base
   const router = new Router({ ...routerOptions, base  })
 
   // TODO: remove in Nuxt 3

@@ -1,5 +1,8 @@
 <template>
   <div id="finpedia">
+    <!-- Popup -->
+    <popup :active="popupActive" @closed="setPopup(false)" />
+    
     <!-- slick carousel section -->
     <section class="section">
       <div class="container">
@@ -36,12 +39,12 @@
 
         <!-- button show more only on mobile -->
         <div class="has-text-centered is-hidden-tablet mt-16">
-          <a
-            href="#"
+          <button
+            @click="setPopup(true)"
             class="button is-normal is-rounded is-info is-light has-text-weight-bold"
           >
             Lihat semua
-          </a>
+          </button>
         </div>
         <!-- ./button show more only on mobile -->
       </div>
@@ -175,6 +178,7 @@
 export default {
   data() {
     return {
+      popupActive: false,
       categories: [
         {
           id: "1",
@@ -383,5 +387,10 @@ export default {
       ],
     };
   },
+  methods: {
+    setPopup(status) {
+      this.popupActive = status;
+    }
+  }
 };
 </script>

@@ -68,7 +68,7 @@ export default {
   /* code */
 
   .components---tabs_round > div > ul > li > .tabs_round___item {
-    margin-right: 16px;
+    margin-right: 8px;
   }
 }
 
@@ -77,7 +77,7 @@ export default {
   /* code */
 
   .components---tabs_round > div > ul > li > .tabs_round___item {
-    margin-right: 16px;
+    margin-right: 8px;
   }
 }
 </style>

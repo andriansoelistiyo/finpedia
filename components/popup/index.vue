@@ -4,7 +4,7 @@
 
     <div class="popup__content-wrapper">
       <button class="popup__btn-close" @click="$emit('closed')">
-        <span>x</span>
+        <i class="fas fa-times"></i>
       </button>
 
       <div class="popup__card">
@@ -95,22 +95,22 @@ export default {
   position: relative;
   max-height: 70%;
   width: 100%;
-  margin-top: 10px;
-  padding: 1em;
+  margin-top: 16px;
+  padding: 16px;
   background-color: #fff;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   overflow-y: auto;
 }
 .popup__btn-close {
   position: relative;
-  right: 15px;
+  right: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 35px;
-  width: 35px;
-  font-size: 22px;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
   border: none;
   border-radius: 50%;
   outline: none;

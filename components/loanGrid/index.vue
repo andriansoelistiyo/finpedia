@@ -72,7 +72,7 @@
     </a>
     <div class="loan___button">
       <a
-        href="/product-detail"
+        href="/form"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold loan___button-item"
       >
         Ajukan sekarang

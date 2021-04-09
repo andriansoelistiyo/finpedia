@@ -1,7 +1,7 @@
 <template>
   <div class="components---sticky_button_mobile is-hidden-tablet">
     <a
-      href="#"
+      href="/form"
       class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold sticky_button_mobile___button-item"
     >
       Ajukan sekarang

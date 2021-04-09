@@ -68,7 +68,7 @@
     <!-- button primary -->
     <div class="loan_simulation___button is-hidden-mobile">
       <a
-        href="#"
+        href="/form"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold loan_simulation___button-item"
       >
         Ajukan sekarang

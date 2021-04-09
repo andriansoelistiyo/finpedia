@@ -47,7 +47,7 @@
     </a>
     <div class="cc___button">
       <a
-        href="/product-detail"
+        href="/form"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold cc___button-item"
       >
         Ajukan sekarang

@@ -1,43 +1,54 @@
 <template>
   <div class="components---loan_simulation">
-    <div class="loan_simulation___title">Simulasi pinjaman</div>
-    <!-- form pinjaman -->
-    <div class="field is-expanded">
-      <label class="label fs-body02">Pinjaman</label>
-      <div class="field has-addons">
-        <p class="control">
-          <a class="button is-static"> Rp </a>
-        </p>
-        <p class="control is-expanded">
-          <input
-            class="input"
-            type="text"
-            placeholder="100.000.000"
-            value="100.000.000"
-          />
-        </p>
-      </div>
-      <p class="help">Hingga Rp300 juta</p>
+    <div
+      v-if="$device.isDesktop"
+      class="loan_simulation___title is-hidden-mobile"
+    >
+      Simulasi pinjaman
     </div>
-    <!-- ./form pinjaman -->
 
-    <!-- form tenor -->
-    <div class="field">
-      <label class="label fs-body02">Tenor</label>
-      <div class="control">
-        <div class="select">
-          <select>
-            <option>Pilih tenor</option>
-            <option>3 bulan</option>
-            <option>6 bulan</option>
-            <option>9 bulan</option>
-            <option>12 bulan</option>
-          </select>
+    <div class="columns is-mobile is-multiline">
+      <div class="column is-6-mobile is-6-tablet is-12-desktop">
+        <!-- form pinjaman -->
+        <div class="field is-expanded">
+          <label class="label fs-body02">Pinjaman</label>
+          <div class="field has-addons">
+            <p class="control">
+              <a class="button is-static"> Rp </a>
+            </p>
+            <p class="control is-expanded">
+              <input
+                class="input"
+                type="text"
+                placeholder="100.000.000"
+                value="100.000.000"
+              />
+            </p>
+          </div>
+          <p class="help">Hingga Rp300 juta</p>
         </div>
+        <!-- ./form pinjaman -->
       </div>
-      <p class="help">Hingga 36 bulan</p>
+      <div class="column is-6-mobile is-6-tablet is-12-desktop">
+        <!-- form tenor -->
+        <div class="field">
+          <label class="label fs-body02">Tenor</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                <option>Pilih tenor</option>
+                <option>3 bulan</option>
+                <option>6 bulan</option>
+                <option>9 bulan</option>
+                <option>12 bulan</option>
+              </select>
+            </div>
+          </div>
+          <p class="help">Hingga 36 bulan</p>
+        </div>
+        <!-- ./form tenor -->
+      </div>
     </div>
-    <!-- ./form tenor -->
 
     <!-- suku bunga -->
     <div class="loan_simulation___suku_bunga">
@@ -55,7 +66,7 @@
     <!-- ./paid period -->
 
     <!-- button primary -->
-    <div class="loan_simulation___button">
+    <div class="loan_simulation___button is-hidden-mobile">
       <a
         href="#"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold loan_simulation___button-item"
@@ -69,17 +80,11 @@
 
 <script>
 export default {
-  name: 'loanSimulation',
-}
+  name: "loanSimulation",
+};
 </script>
 
 <style scoped>
-.components---loan_simulation {
-  padding: 16px;
-  border-radius: var(--smallRadius);
-  box-shadow: var(--shadow);
-  background-color: #fff;
-}
 .components---loan_simulation > .loan_simulation___title {
   font-family: finpediaRoboto900;
   color: var(--finpediaBlack01);
@@ -96,11 +101,9 @@ export default {
 .components---loan_simulation > .loan_simulation___suku_bunga {
   font-family: finpediaRoboto400;
   color: var(--finpediaBlack02);
-  margin-top: 16px;
 }
 
 .components---loan_simulation > .loan_simulation___paid_period {
-  margin-top: 16px;
   padding: 8px;
   border: 1px solid var(--finpediaBlue04);
   border-radius: var(--smallRadius);
@@ -140,6 +143,10 @@ export default {
 @media screen and (max-width: 576px) {
   /* code */
 
+  .components---loan_simulation {
+    padding: 16px 0 0;
+  }
+
   .components---loan_simulation > .loan_simulation___title {
     font-size: var(--body01);
     line-height: var(--lhBody01);
@@ -148,6 +155,10 @@ export default {
   .components---loan_simulation > .loan_simulation___suku_bunga {
     font-size: var(--body02);
     line-height: var(--lhBody02);
+  }
+
+  .components---loan_simulation > .loan_simulation___paid_period {
+    margin-top: 8px;
   }
 
   .components---loan_simulation
@@ -168,6 +179,10 @@ export default {
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /* code */
 
+  .components---loan_simulation {
+    padding: 16px 0 0;
+  }
+
   .components---loan_simulation > .loan_simulation___title {
     font-size: var(--body01);
     line-height: var(--lhBody01);
@@ -176,6 +191,10 @@ export default {
   .components---loan_simulation > .loan_simulation___suku_bunga {
     font-size: var(--body02);
     line-height: var(--lhBody02);
+  }
+
+  .components---loan_simulation > .loan_simulation___paid_period {
+    margin-top: 8px;
   }
 
   .components---loan_simulation
@@ -196,6 +215,10 @@ export default {
 @media screen and (min-width: 767px) and (max-width: 992px) {
   /* code */
 
+  .components---loan_simulation {
+    padding: 16px 0 0;
+  }
+
   .components---loan_simulation > .loan_simulation___title {
     font-size: var(--body01);
     line-height: var(--lhBody01);
@@ -204,6 +227,10 @@ export default {
   .components---loan_simulation > .loan_simulation___suku_bunga {
     font-size: var(--body02);
     line-height: var(--lhBody02);
+  }
+
+  .components---loan_simulation > .loan_simulation___paid_period {
+    margin-top: 8px;
   }
 
   .components---loan_simulation
@@ -224,6 +251,13 @@ export default {
 @media screen and (min-width: 993px) and (max-width: 1200px) {
   /* code */
 
+  .components---loan_simulation {
+    padding: 16px;
+    border-radius: var(--smallRadius);
+    box-shadow: var(--shadow);
+    background-color: #fff;
+  }
+
   .components---loan_simulation > .loan_simulation___title {
     font-size: var(--body01);
     line-height: var(--lhBody01);
@@ -232,6 +266,10 @@ export default {
   .components---loan_simulation > .loan_simulation___suku_bunga {
     font-size: var(--body02);
     line-height: var(--lhBody02);
+  }
+
+  .components---loan_simulation > .loan_simulation___paid_period {
+    margin-top: 16px;
   }
 
   .components---loan_simulation
@@ -252,6 +290,13 @@ export default {
 @media screen and (min-width: 1201px) {
   /* code */
 
+  .components---loan_simulation {
+    padding: 16px;
+    border-radius: var(--smallRadius);
+    box-shadow: var(--shadow);
+    background-color: #fff;
+  }
+
   .components---loan_simulation > .loan_simulation___title {
     font-size: var(--body01);
     line-height: var(--lhBody01);
@@ -260,6 +305,10 @@ export default {
   .components---loan_simulation > .loan_simulation___suku_bunga {
     font-size: var(--body02);
     line-height: var(--lhBody02);
+  }
+
+  .components---loan_simulation > .loan_simulation___paid_period {
+    margin-top: 16px;
   }
 
   .components---loan_simulation

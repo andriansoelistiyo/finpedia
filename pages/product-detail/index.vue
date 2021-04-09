@@ -38,12 +38,21 @@
             <productImage :image="productImage"></productImage>
 
             <!-- title only on mobile -->
-            <div v-if="$device.isMobile" class="components---section mt-16 mb-0 is-hidden-tablet">
+            <div
+              v-if="$device.isMobile"
+              class="components---section mt-16 mb-0 is-hidden-tablet"
+            >
               <div class="has-text-centered">
                 <h1 class="section___title">Standard Chartered</h1>
               </div>
             </div>
             <!-- ./title only on mobile -->
+
+            <!-- loan simulation only on mobile -->
+            <div v-if="$device.isMobile" class="is-hidden-tablet">
+              <loanSimulation />
+            </div>
+            <!-- ./loan simulation only on mobile -->
           </div>
           <!-- ./product image -->
 
@@ -57,11 +66,14 @@
           </div>
           <!-- ./main content -->
 
-          <!-- loan simulation -->
-          <div class="column is-12-mobile is-3-tablet is-3-desktop">
-            <loanSimulation class="is-hidden-mobile" />
+          <!-- loan simulation only on desktop -->
+          <div
+            v-if="$device.isDesktop"
+            class="column is-12-mobile is-3-tablet is-3-desktop is-hidden-mobile"
+          >
+            <loanSimulation />
           </div>
-          <!-- ./loan simulation -->
+          <!-- ./loan simulation only on desktop -->
         </div>
       </div>
     </section>

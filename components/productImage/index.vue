@@ -34,6 +34,8 @@ export default {
   .components---product_image > figure {
     background-color: var(--finpediaBlack06);
     border-radius: var(--smallRadius);
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .components---product_image > figure > .product_image___image {
     border: unset;
@@ -51,6 +53,8 @@ export default {
   .components---product_image > figure {
     background-color: var(--finpediaBlack06);
     border-radius: var(--smallRadius);
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .components---product_image > figure > .product_image___image {
     border: unset;

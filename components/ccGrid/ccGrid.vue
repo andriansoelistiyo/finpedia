@@ -89,9 +89,17 @@ export default {
 }
 
 /* cc image */
+.components---cc > a > figure {
+  border-radius: var(--smallRadius);
+  background-color: var(--finpediaBlack06);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .components---cc > a > figure > .cc___image {
   border-radius: var(--smallRadius);
-  /* height: 150px; */
+  max-height: 100px;
+  width: auto;
   margin: 0 auto;
 }
 

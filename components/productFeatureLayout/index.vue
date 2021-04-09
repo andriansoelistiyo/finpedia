@@ -9,14 +9,14 @@
 
 <script>
 export default {
-  name: 'productFeatureLayout',
+  name: "productFeatureLayout",
   props: {
     items: {
       type: Array,
       required: true,
     },
   },
-}
+};
 </script>
 
 <style scoped>
@@ -45,12 +45,12 @@ export default {
 
   /* cc feature font */
   .components---feature > .feature___title {
-    font-size: var(--body02);
-    line-height: var(--lhBody02);
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
   }
   .components---feature > .feature___item {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -60,12 +60,12 @@ export default {
 
   /* cc feature font */
   .components---feature > .feature___title {
-    font-size: var(--body02);
-    line-height: var(--lhBody02);
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
   }
   .components---feature > .feature___item {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -75,12 +75,12 @@ export default {
 
   /* cc feature font */
   .components---feature > .feature___title {
-    font-size: var(--body02);
-    line-height: var(--lhBody02);
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
   }
   .components---feature > .feature___item {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 

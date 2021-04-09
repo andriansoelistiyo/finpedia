@@ -41,8 +41,8 @@
 
 <script>
 export default {
-  name: 'productCalcBunga',
-}
+  name: "productCalcBunga",
+};
 </script>
 
 <style scoped>
@@ -77,16 +77,16 @@ export default {
 
   /* calc_bunga font */
   .components---calc_bunga > .calc_bunga___title {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---calc_bunga > .calc_bunga___paragraph {
     font-size: var(--body02);
     line-height: var(--lhBody02);
   }
-  .components---calc_bunga > .calc_bunga___paragraph {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
-  }
   .components---calc_bunga > .calc_bunga___table {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -96,16 +96,16 @@ export default {
 
   /* calc_bunga font */
   .components---calc_bunga > .calc_bunga___title {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---calc_bunga > .calc_bunga___paragraph {
     font-size: var(--body02);
     line-height: var(--lhBody02);
   }
-  .components---calc_bunga > .calc_bunga___paragraph {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
-  }
   .components---calc_bunga > .calc_bunga___table {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -115,16 +115,16 @@ export default {
 
   /* calc_bunga font */
   .components---calc_bunga > .calc_bunga___title {
+    font-size: var(--heading05);
+    line-height: var(--lhHeading05);
+  }
+  .components---calc_bunga > .calc_bunga___paragraph {
     font-size: var(--body02);
     line-height: var(--lhBody02);
   }
-  .components---calc_bunga > .calc_bunga___paragraph {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
-  }
   .components---calc_bunga > .calc_bunga___table {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 
@@ -138,12 +138,12 @@ export default {
     line-height: var(--lhHeading05);
   }
   .components---calc_bunga > .calc_bunga___paragraph {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
   .components---calc_bunga > .calc_bunga___table {
-    font-size: var(--body03);
-    line-height: var(--lhBody03);
+    font-size: var(--body02);
+    line-height: var(--lhBody02);
   }
 }
 

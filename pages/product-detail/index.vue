@@ -1,5 +1,9 @@
 <template>
   <div id="finpedia-product-detail" class="py-16">
+    <!-- sticky button mobile section -->
+    <stickyButtonMobile />
+    <!-- ./sticky button mobile section -->
+    
     <!-- breadcrumb section -->
     <section class="section">
       <div class="container">

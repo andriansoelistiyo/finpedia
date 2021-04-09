@@ -8,9 +8,33 @@
       </button>
 
       <div class="popup__card">
-        <div>
-          <p>Testing</p>
+        <!-- components section -->
+        <div class="components---section is-clearfix">
+          <div class="is-pulled-left">
+            <h2 class="section___title">Pinjaman</h2>
+          </div>
+          <!-- button show more only on desktop -->
+          <div class="is-pulled-right has-text-weight-bold is-block fs-body02">
+            <a href="#"> Lihat semua </a>
+          </div>
+          <!-- ./button show more only on desktop -->
         </div>
+        <!-- ./components section -->
+        <categoryGridLayout :items="categories"></categoryGridLayout>
+
+        <!-- components section -->
+        <div class="components---section is-clearfix">
+          <div class="is-pulled-left">
+            <h2 class="section___title">Kartu kredit</h2>
+          </div>
+          <!-- button show more only on desktop -->
+          <div class="is-pulled-right has-text-weight-bold is-block fs-body02">
+            <a href="#"> Lihat semua </a>
+          </div>
+          <!-- ./button show more only on desktop -->
+        </div>
+        <!-- ./components section -->
+        <categoryGridLayout :items="categories"></categoryGridLayout>
       </div>
     </div>
   </div>
@@ -25,6 +49,44 @@ export default {
   data() {
     return {
       activeClass: "",
+      categories: [
+        {
+          id: "1",
+          image: require("~/assets/img/category/pinjamanOnline.png"),
+          title: "Pinjaman Online",
+          link: "loan",
+        },
+        {
+          id: "2",
+          image: require("~/assets/img/category/shopping.png"),
+          title: "Shopping",
+          link: "cc",
+        },
+        {
+          id: "3",
+          image: require("~/assets/img/category/kreditTanpaAgunan.png"),
+          title: "Kredit Tanpa Agunan",
+          link: "loan",
+        },
+        {
+          id: "4",
+          image: require("~/assets/img/category/kreditKendaraanBermotor.png"),
+          title: "Kredit Kendaraan Bermotor",
+          link: "loan",
+        },
+        {
+          id: "5",
+          image: require("~/assets/img/category/kreditPemilikanRumah.png"),
+          title: "Kredit Pemilikan Rumah",
+          link: "loan",
+        },
+        {
+          id: "6",
+          image: require("~/assets/img/category/syariah.png"),
+          title: "Syariah",
+          link: "cc",
+        },
+      ],
     };
   },
   methods: {
@@ -69,7 +131,7 @@ export default {
 
 .popup__content-wrapper {
   width: 100%;
-  max-height: 65%;
+  /* max-height: 65%; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -93,10 +155,10 @@ export default {
 }
 .popup__card {
   position: relative;
-  max-height: 70%;
+  max-height: 80vh;
   width: 100%;
   margin-top: 16px;
-  padding: 16px;
+  padding: 32px 16px 16px;
   background-color: #fff;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;

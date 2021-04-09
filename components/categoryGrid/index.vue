@@ -60,8 +60,8 @@ export default {
 
   /* category image */
   .components---category > figure > .category___image {
-    height: 72px;
-    width: 72px;
+    height: 56px;
+    width: 56px;
   }
 
   /* category font */
@@ -78,8 +78,8 @@ export default {
 
   /* category image */
   .components---category > figure > .category___image {
-    height: 72px;
-    width: 72px;
+    height: 56px;
+    width: 56px;
   }
 
   /* category font */

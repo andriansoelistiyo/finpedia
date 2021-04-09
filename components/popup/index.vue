@@ -15,7 +15,7 @@
           </div>
           <!-- button show more only on desktop -->
           <div class="is-pulled-right has-text-weight-bold is-block fs-body02">
-            <a href="#"> Lihat semua </a>
+            <a href="/loan"> Lihat semua </a>
           </div>
           <!-- ./button show more only on desktop -->
         </div>
@@ -29,7 +29,7 @@
           </div>
           <!-- button show more only on desktop -->
           <div class="is-pulled-right has-text-weight-bold is-block fs-body02">
-            <a href="#"> Lihat semua </a>
+            <a href="/loan"> Lihat semua </a>
           </div>
           <!-- ./button show more only on desktop -->
         </div>

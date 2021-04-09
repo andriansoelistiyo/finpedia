@@ -97,7 +97,7 @@ export default {
 
 /* cc title */
 .components---cc > a > .cc___title {
-  font-family: finpediaRoboto900;
+  font-family: finpediaPoppins700;
   color: var(--finpediaBlack01);
   text-align: center;
   margin-top: 16px;

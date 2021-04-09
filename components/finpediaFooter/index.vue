@@ -138,7 +138,7 @@ export default {
 
 <style scoped>
 .components---footer > .footer___title {
-  font-family: finpediaRoboto900;
+  font-family: finpediaPoppins700;
   font-size: var(--body01);
   line-height: var(--lhBody01);
 }

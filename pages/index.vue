@@ -28,7 +28,7 @@
               href="#"
               class="button is-small is-rounded is-info is-light has-text-weight-bold fs-button"
             >
-              Lihat semua
+              Lihat semua kategori
             </a>
           </div>
           <!-- ./button show more only on desktop -->
@@ -43,7 +43,7 @@
             @click="setPopup(true)"
             class="button is-normal is-rounded is-info is-light has-text-weight-bold"
           >
-            Lihat semua
+            Lihat semua kategori
           </button>
         </div>
         <!-- ./button show more only on mobile -->
@@ -65,7 +65,7 @@
               href="#"
               class="button is-small is-rounded is-info is-light has-text-weight-bold fs-button"
             >
-              Lihat semua
+              Lihat semua pinjaman
             </a>
           </div>
           <!-- ./button show more only on desktop -->
@@ -82,7 +82,7 @@
             href="#"
             class="button is-normal is-rounded is-info is-light has-text-weight-bold"
           >
-            Lihat semua
+            Lihat semua pinjaman
           </a>
         </div>
         <!-- ./button show more only on mobile -->
@@ -104,7 +104,7 @@
               href="#"
               class="button is-small is-rounded is-info is-light has-text-weight-bold fs-button"
             >
-              Lihat semua
+              Lihat semua kartu kredit
             </a>
           </div>
           <!-- ./button show more only on desktop -->
@@ -121,7 +121,7 @@
             href="#"
             class="button is-normal is-rounded is-info is-light has-text-weight-bold"
           >
-            Lihat semua
+            Lihat semua kartu kredit
           </a>
         </div>
         <!-- ./button show more only on mobile -->
@@ -147,7 +147,7 @@
               href="#"
               class="button is-small is-rounded is-info is-light has-text-weight-bold fs-button"
             >
-              Lihat semua
+              Lihat semua partner
             </a>
           </div>
           <!-- ./button show more only on desktop -->
@@ -162,7 +162,7 @@
             href="#"
             class="button is-normal is-rounded is-info is-light has-text-weight-bold"
           >
-            Lihat semua
+            Lihat semua partner
           </a>
         </div>
         <!-- ./button show more only on mobile -->

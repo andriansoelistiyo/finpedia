@@ -75,7 +75,7 @@
         href="/product-detail"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold loan___button-item"
       >
-        Ajukan pinjaman
+        Ajukan sekarang
       </a>
     </div>
   </div>

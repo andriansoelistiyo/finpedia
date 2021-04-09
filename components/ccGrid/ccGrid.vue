@@ -50,7 +50,7 @@
         href="/product-detail"
         class="button is-normal is-rounded is-fullwidth is-info has-text-weight-bold cc___button-item"
       >
-        Apply kartu kredit
+        Ajukan sekarang
       </a>
     </div>
   </div>

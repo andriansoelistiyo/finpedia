@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="~/assets/img/logo/finpediaLogo.png" />
+          <img id="navbar-item___logo" src="~/assets/img/logo/finpediaLogo.png" />
         </a>
         <a
           role="button"
@@ -48,3 +48,35 @@ export default {
   name: "finpediaHeader",
 };
 </script>
+
+<style scoped>
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  /* code */
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* code */
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* code */
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* code */
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  /* code */
+
+  /* logo */
+  .navbar-item > #navbar-item___logo {
+    min-height: 40px;
+  }
+}
+</style>

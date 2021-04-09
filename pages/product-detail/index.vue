@@ -1,7 +1,7 @@
 <template>
   <div id="finpedia-product-detail" class="py-16">
     <!-- sticky button mobile section -->
-    <stickyButtonMobile />
+    <stickyButtonMobile v-if="$device.isMobile" />
     <!-- ./sticky button mobile section -->
 
     <!-- breadcrumb section -->

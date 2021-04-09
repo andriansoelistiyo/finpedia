@@ -1,7 +1,7 @@
 <template>
   <div id="finpedia">
     <!-- Popup -->
-    <popup :active="popupActive" @closed="setPopup(false)" />
+    <popup :active="popupActive" @closed="setPopup(false)" v-if="$device.isMobile" class="is-hidden-tablet"/>
     
     <!-- slick carousel section -->
     <section class="section">

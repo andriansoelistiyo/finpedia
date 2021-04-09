@@ -1,0 +1,24 @@
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  /* code */
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* code */
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* code */
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* code */
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  /* code */
+}

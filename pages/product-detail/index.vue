@@ -11,8 +11,8 @@
     </section>
     <!-- ./breadcrumb section -->
 
-    <!-- title section -->
-    <section class="section">
+    <!-- title section only on desktop -->
+    <section class="section is-hidden-mobile">
       <div class="container">
         <!-- components section -->
         <div class="components---section is-clearfix">
@@ -23,10 +23,10 @@
         <!-- ./components section -->
       </div>
     </section>
-    <!-- ./title section -->
+    <!-- ./title section only on desktop -->
 
     <!-- content section -->
-    <section class="section pt-0">
+    <section class="section spacing-responsive">
       <div class="container">
         <div class="columns is-mobile is-multiline">
           <!-- product image -->
@@ -47,7 +47,7 @@
 
           <!-- loan simulation -->
           <div class="column is-12-mobile is-3-tablet is-3-desktop">
-            <loanSimulation />
+            <loanSimulation class="is-hidden-mobile" />
           </div>
           <!-- ./loan simulation -->
         </div>
@@ -142,8 +142,8 @@ export default {
       loans: [
         {
           id: 1,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -154,8 +154,8 @@ export default {
         },
         {
           id: 2,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -166,8 +166,8 @@ export default {
         },
         {
           id: 3,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -178,8 +178,8 @@ export default {
         },
         {
           id: 4,
-          image: require("~/assets/img/partner/julo.png"),
-          title: "Julo",
+          image: require("~/assets/img/partner/standardChartered.png"),
+          title: "Standard Chartered",
           pinjaman: "Rp100 juta - Rp300 juta",
           bunga: "0.96% per-bulan",
           tenor: "12 - 36 bulan",
@@ -193,3 +193,34 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* mobile screen */
+@media screen and (max-width: 576px) {
+  /* code */
+}
+
+/* horizontal mobile screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* code */
+}
+
+/* ipad screen */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* code */
+}
+
+/* ipad pro screen */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* code */
+}
+
+/* desktop screen */
+@media screen and (min-width: 1201px) {
+  /* code */
+
+  .spacing-responsive {
+    padding-top: 0 !important;
+  }
+}
+</style>

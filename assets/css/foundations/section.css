@@ -30,7 +30,7 @@
   #finpedia-loan > .section {
     padding: 8px 16px;
   }
-  
+
   /* section hide button */
   .components---section > .is-pulled-right {
     display: none;
@@ -55,6 +55,17 @@
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /* code */
 
+  /* section */
+  #finpedia > .section {
+    padding: 16px;
+  }
+  #finpedia-product-detail > .section {
+    padding: 8px 16px;
+  }
+  #finpedia-loan > .section {
+    padding: 8px 16px;
+  }
+
   /* section hide button */
   .components---section > .is-pulled-right {
     display: none;
@@ -78,6 +89,17 @@
 /* ipad screen */
 @media screen and (min-width: 767px) and (max-width: 992px) {
   /* code */
+
+  /* section */
+  #finpedia > .section {
+    padding: 16px;
+  }
+  #finpedia-product-detail > .section {
+    padding: 8px 16px;
+  }
+  #finpedia-loan > .section {
+    padding: 8px 16px;
+  }
 
   /* font section */
   .components---section > div > .section___title {

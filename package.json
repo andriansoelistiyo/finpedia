@@ -14,6 +14,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
+    "nuxt-device-detect": "^1.1.5",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {

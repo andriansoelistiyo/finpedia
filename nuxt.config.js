@@ -47,6 +47,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://www.npmjs.com/package/nuxt-device-detect
+    'nuxt-device-detect',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

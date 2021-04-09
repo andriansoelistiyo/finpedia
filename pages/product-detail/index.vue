@@ -3,7 +3,7 @@
     <!-- sticky button mobile section -->
     <stickyButtonMobile />
     <!-- ./sticky button mobile section -->
-    
+
     <!-- breadcrumb section -->
     <section class="section">
       <div class="container">
@@ -16,7 +16,7 @@
     <!-- ./breadcrumb section -->
 
     <!-- title section only on desktop -->
-    <section class="section is-hidden-mobile">
+    <section v-if="$device.isDesktop" class="section is-hidden-mobile">
       <div class="container">
         <!-- components section -->
         <div class="components---section is-clearfix">
@@ -36,6 +36,14 @@
           <!-- product image -->
           <div class="column is-12-mobile is-3-tablet is-3-desktop">
             <productImage :image="productImage"></productImage>
+
+            <!-- title only on mobile -->
+            <div v-if="$device.isMobile" class="components---section mt-16 mb-0 is-hidden-tablet">
+              <div class="has-text-centered">
+                <h1 class="section___title">Standard Chartered</h1>
+              </div>
+            </div>
+            <!-- ./title only on mobile -->
           </div>
           <!-- ./product image -->
 
